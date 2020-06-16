@@ -1,0 +1,6 @@
+module Pods_MCPushSDKAPP_MCPushSDKAPPTests {
+  umbrella header "Pods-MCPushSDKAPP-MCPushSDKAPPTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

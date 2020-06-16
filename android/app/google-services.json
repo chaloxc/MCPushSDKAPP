@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1072974159859",
+    "firebase_url": "https://marketingcloudpn-demoapp.firebaseio.com",
+    "project_id": "marketingcloudpn-demoapp",
+    "storage_bucket": "marketingcloudpn-demoapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072974159859:android:fdff40f55b86da6f22fc86",
+        "android_client_info": {
+          "package_name": "com.mcpushsdkapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072974159859-p0os53sfirctraqgur7titrbad2tuqm6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhjjPJtnu3rfaEi_8pwNjISlQwTyD3mRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072974159859-p0os53sfirctraqgur7titrbad2tuqm6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

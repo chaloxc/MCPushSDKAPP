@@ -1,0 +1,356 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mcpushsdkapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/gonz4/marketingCloud/MCPushSDKAPP/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/gonz4/marketingCloud/MCPushSDKAPP/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/gonz4/marketingCloud/MCPushSDKAPP/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/gonz4/marketingCloud/MCPushSDKAPP/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.33.1] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/850ff10738acdb63d25016bc3b41fe90/jetified-flipper-0.33.1/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.33.1] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/850ff10738acdb63d25016bc3b41fe90/jetified-flipper-0.33.1/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:11:5-79
+14-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:11:22-76
+15    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+15-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:13:5-68
+15-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:13:22-65
+16    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+16-->[com.google.firebase:firebase-iid:20.1.4] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/8f00a84c9710fe0840d8595e7b4344d6/firebase-iid-20.1.4/AndroidManifest.xml:26:5-82
+16-->[com.google.firebase:firebase-iid:20.1.4] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/8f00a84c9710fe0840d8595e7b4344d6/firebase-iid-20.1.4/AndroidManifest.xml:26:22-79
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+17-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/f17dbd3c9e55c99fded5d995fb48eb76/play-services-measurement-17.3.0/AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/f17dbd3c9e55c99fded5d995fb48eb76/play-services-measurement-17.3.0/AndroidManifest.xml:26:22-107
+18
+19    <application
+19-->/Users/gonz4/marketingCloud/MCPushSDKAPP/android/app/src/main/AndroidManifest.xml:6:5-25:19
+20        android:name="com.mcpushsdkapp.MainApplication"
+20-->/Users/gonz4/marketingCloud/MCPushSDKAPP/android/app/src/main/AndroidManifest.xml:7:7-38
+21        android:allowBackup="false"
+21-->/Users/gonz4/marketingCloud/MCPushSDKAPP/android/app/src/main/AndroidManifest.xml:11:7-34
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/191b1d8d2b30dce3511ec3ffb3c8dce0/core-1.2.0/AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/gonz4/marketingCloud/MCPushSDKAPP/android/app/src/main/AndroidManifest.xml:9:7-41
+25        android:label="@string/app_name"
+25-->/Users/gonz4/marketingCloud/MCPushSDKAPP/android/app/src/main/AndroidManifest.xml:8:7-39
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/Users/gonz4/marketingCloud/MCPushSDKAPP/android/app/src/main/AndroidManifest.xml:10:7-52
+27        android:theme="@style/AppTheme"
+27-->/Users/gonz4/marketingCloud/MCPushSDKAPP/android/app/src/main/AndroidManifest.xml:12:7-38
+28        android:usesCleartextTraffic="true" >
+28-->/Users/gonz4/marketingCloud/MCPushSDKAPP/android/app/src/debug/AndroidManifest.xml:7:18-53
+29        <activity
+29-->/Users/gonz4/marketingCloud/MCPushSDKAPP/android/app/src/main/AndroidManifest.xml:13:7-23:18
+30            android:name="com.mcpushsdkapp.MainActivity"
+30-->/Users/gonz4/marketingCloud/MCPushSDKAPP/android/app/src/main/AndroidManifest.xml:14:9-37
+31            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+31-->/Users/gonz4/marketingCloud/MCPushSDKAPP/android/app/src/main/AndroidManifest.xml:16:9-86
+32            android:label="@string/app_name"
+32-->/Users/gonz4/marketingCloud/MCPushSDKAPP/android/app/src/main/AndroidManifest.xml:15:9-41
+33            android:launchMode="singleTask"
+33-->/Users/gonz4/marketingCloud/MCPushSDKAPP/android/app/src/main/AndroidManifest.xml:17:9-40
+34            android:windowSoftInputMode="adjustResize" >
+34-->/Users/gonz4/marketingCloud/MCPushSDKAPP/android/app/src/main/AndroidManifest.xml:18:9-51
+35            <intent-filter>
+35-->/Users/gonz4/marketingCloud/MCPushSDKAPP/android/app/src/main/AndroidManifest.xml:19:9-22:25
+36                <action android:name="android.intent.action.MAIN" />
+36-->/Users/gonz4/marketingCloud/MCPushSDKAPP/android/app/src/main/AndroidManifest.xml:20:13-65
+36-->/Users/gonz4/marketingCloud/MCPushSDKAPP/android/app/src/main/AndroidManifest.xml:20:21-62
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/Users/gonz4/marketingCloud/MCPushSDKAPP/android/app/src/main/AndroidManifest.xml:21:13-73
+38-->/Users/gonz4/marketingCloud/MCPushSDKAPP/android/app/src/main/AndroidManifest.xml:21:23-70
+39            </intent-filter>
+40        </activity>
+41        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+41-->/Users/gonz4/marketingCloud/MCPushSDKAPP/android/app/src/main/AndroidManifest.xml:24:7-84
+41-->/Users/gonz4/marketingCloud/MCPushSDKAPP/android/app/src/main/AndroidManifest.xml:24:17-81
+42        <activity
+42-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:16:9-19:50
+43            android:name="com.salesforce.marketingcloud.messages.iam.IamModalActivity"
+43-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:17:13-87
+44            android:label="@string/mcsdk_iam_activity_label"
+44-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:18:13-61
+45            android:theme="@style/McSdk.Modal" />
+45-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:19:13-47
+46        <activity
+46-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:20:9-23:51
+47            android:name="com.salesforce.marketingcloud.messages.iam.IamBannerActivity"
+47-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:21:13-88
+48            android:label="@string/mcsdk_iam_activity_label"
+48-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:22:13-61
+49            android:theme="@style/McSdk.Banner" />
+49-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:23:13-48
+50        <activity
+50-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:24:9-28:55
+51            android:name="com.salesforce.marketingcloud.messages.iam.IamFullscreenActivity"
+51-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:25:13-92
+52            android:configChanges="orientation|screenSize"
+52-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:26:13-59
+53            android:label="@string/mcsdk_iam_activity_label"
+53-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:27:13-61
+54            android:theme="@style/McSdk.Fullscreen" />
+54-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:28:13-52
+55
+56        <receiver
+56-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:30:9-32:40
+57            android:name="com.salesforce.marketingcloud.location.LocationReceiver"
+57-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:31:13-83
+58            android:exported="false" />
+58-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:32:13-37
+59
+60        <service
+60-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:34:9-37:72
+61            android:name="com.salesforce.marketingcloud.MCService"
+61-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:35:13-67
+62            android:exported="false"
+62-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:36:13-37
+63            android:permission="android.permission.BIND_JOB_SERVICE" />
+63-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:37:13-69
+64        <service
+64-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:38:9-40:40
+65            android:name="com.salesforce.marketingcloud.NotificationOpenedService"
+65-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:39:13-83
+66            android:exported="false" />
+66-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:40:13-37
+67
+68        <receiver
+68-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:42:9-53:20
+69            android:name="com.salesforce.marketingcloud.MCReceiver"
+69-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:43:13-68
+70            android:enabled="true"
+70-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:44:13-35
+71            android:exported="false" >
+71-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:45:13-37
+72            <intent-filter>
+72-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:46:13-52:29
+73                <action android:name="android.intent.action.BOOT_COMPLETED" />
+73-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:47:17-79
+73-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:47:25-76
+74                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+74-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:48:17-80
+74-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:48:25-77
+75                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+75-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:49:17-84
+75-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:49:25-81
+76                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+76-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:50:17-81
+76-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:50:25-78
+77                <action android:name="com.mcpushsdkapp.com.salesforce.marketingcloud.WAKE_FOR_ALARM" />
+77-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:51:17-104
+77-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:51:25-101
+78            </intent-filter>
+79        </receiver>
+80
+81        <service
+81-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:55:9-61:19
+82            android:name="com.salesforce.marketingcloud.messages.push.MCFirebaseMessagingService"
+82-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:56:13-98
+83            android:exported="false" >
+83-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:57:13-37
+84            <intent-filter android:priority="-1" >
+84-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:58:13-60:29
+84-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:58:28-49
+85                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+85-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:59:17-78
+85-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:59:25-75
+86            </intent-filter>
+87        </service>
+88
+89        <provider
+89-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:63:9-67:40
+90            android:name="com.salesforce.marketingcloud.MCInitContentProvider"
+90-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:64:13-79
+91            android:authorities="com.mcpushsdkapp.com.salesforce.marketingcloud.initprovider"
+91-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:65:13-94
+92            android:enabled="true"
+92-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:66:13-35
+93            android:exported="false" />
+93-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:67:13-37
+94        <!--
+95             FirebaseMessagingService performs security checks at runtime,
+96             but set to not exported to explicitly avoid allowing another app to call it.
+97        -->
+98        <service
+98-->[com.google.firebase:firebase-messaging:20.1.4] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/b3abb2b7d3c200bc9823a4134ddf5fc1/jetified-firebase-messaging-20.1.4/AndroidManifest.xml:28:9-34:19
+99            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+99-->[com.google.firebase:firebase-messaging:20.1.4] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/b3abb2b7d3c200bc9823a4134ddf5fc1/jetified-firebase-messaging-20.1.4/AndroidManifest.xml:29:13-82
+100            android:exported="false" >
+100-->[com.google.firebase:firebase-messaging:20.1.4] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/b3abb2b7d3c200bc9823a4134ddf5fc1/jetified-firebase-messaging-20.1.4/AndroidManifest.xml:30:13-37
+101            <intent-filter android:priority="-500" >
+101-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:58:13-60:29
+101-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:58:28-49
+102                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+102-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:59:17-78
+102-->[com.salesforce.marketingcloud:marketingcloudsdk:7.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/ea51cdd96f1a747a685d3ecbde640f60/jetified-marketingcloudsdk-7.2.0/AndroidManifest.xml:59:25-75
+103            </intent-filter>
+104        </service>
+105        <service
+105-->[com.google.firebase:firebase-messaging:20.1.4] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/b3abb2b7d3c200bc9823a4134ddf5fc1/jetified-firebase-messaging-20.1.4/AndroidManifest.xml:35:9-41:19
+106            android:name="com.google.firebase.components.ComponentDiscoveryService"
+106-->[com.google.firebase:firebase-messaging:20.1.4] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/b3abb2b7d3c200bc9823a4134ddf5fc1/jetified-firebase-messaging-20.1.4/AndroidManifest.xml:36:13-84
+107            android:directBootAware="true"
+107-->[com.google.firebase:firebase-common:19.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/874096a41e937a5a593f70dfb3944b1b/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+108            android:exported="false" >
+108-->[com.google.firebase:firebase-messaging:20.1.4] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/b3abb2b7d3c200bc9823a4134ddf5fc1/jetified-firebase-messaging-20.1.4/AndroidManifest.xml:37:13-37
+109            <meta-data
+109-->[com.google.firebase:firebase-messaging:20.1.4] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/b3abb2b7d3c200bc9823a4134ddf5fc1/jetified-firebase-messaging-20.1.4/AndroidManifest.xml:38:13-40:85
+110                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+110-->[com.google.firebase:firebase-messaging:20.1.4] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/b3abb2b7d3c200bc9823a4134ddf5fc1/jetified-firebase-messaging-20.1.4/AndroidManifest.xml:39:17-119
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-messaging:20.1.4] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/b3abb2b7d3c200bc9823a4134ddf5fc1/jetified-firebase-messaging-20.1.4/AndroidManifest.xml:40:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/f657f895cb0ad5ee6ce7b4805207af07/firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+113                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+113-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/f657f895cb0ad5ee6ce7b4805207af07/firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/f657f895cb0ad5ee6ce7b4805207af07/firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+115            <meta-data
+115-->[com.google.android.gms:play-services-measurement-api:17.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/608fcf60a98d248abf7cb19b2c442d4f/play-services-measurement-api-17.3.0/AndroidManifest.xml:30:13-32:85
+116                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+116-->[com.google.android.gms:play-services-measurement-api:17.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/608fcf60a98d248abf7cb19b2c442d4f/play-services-measurement-api-17.3.0/AndroidManifest.xml:31:17-139
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.android.gms:play-services-measurement-api:17.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/608fcf60a98d248abf7cb19b2c442d4f/play-services-measurement-api-17.3.0/AndroidManifest.xml:32:17-82
+118            <meta-data
+118-->[com.google.firebase:firebase-iid:20.1.4] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/8f00a84c9710fe0840d8595e7b4344d6/firebase-iid-20.1.4/AndroidManifest.xml:32:13-34:85
+119                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+119-->[com.google.firebase:firebase-iid:20.1.4] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/8f00a84c9710fe0840d8595e7b4344d6/firebase-iid-20.1.4/AndroidManifest.xml:33:17-96
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-iid:20.1.4] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/8f00a84c9710fe0840d8595e7b4344d6/firebase-iid-20.1.4/AndroidManifest.xml:34:17-82
+121            <meta-data
+121-->[com.google.firebase:firebase-installations:16.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/0da9dbe91e55bd550ef46dae1d5e6c07/firebase-installations-16.2.0/AndroidManifest.xml:17:13-19:85
+122                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+122-->[com.google.firebase:firebase-installations:16.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/0da9dbe91e55bd550ef46dae1d5e6c07/firebase-installations-16.2.0/AndroidManifest.xml:18:17-127
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.firebase:firebase-installations:16.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/0da9dbe91e55bd550ef46dae1d5e6c07/firebase-installations-16.2.0/AndroidManifest.xml:19:17-82
+124        </service>
+125        <service
+125-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/579aadedb57581780ee73635c0aef2f4/transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+126            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+126-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/579aadedb57581780ee73635c0aef2f4/transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+127            android:exported="false" >
+127-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/579aadedb57581780ee73635c0aef2f4/transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+128            <meta-data
+128-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/579aadedb57581780ee73635c0aef2f4/transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+129                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+129-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/579aadedb57581780ee73635c0aef2f4/transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+130                android:value="cct" />
+130-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/579aadedb57581780ee73635c0aef2f4/transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+131        </service>
+132        <service
+132-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/7d2291c29c7a6f87a454b865dc2f1866/transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+133            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+133-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/7d2291c29c7a6f87a454b865dc2f1866/transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+134            android:exported="false"
+134-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/7d2291c29c7a6f87a454b865dc2f1866/transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+135            android:permission="android.permission.BIND_JOB_SERVICE" >
+135-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/7d2291c29c7a6f87a454b865dc2f1866/transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+136        </service>
+137
+138        <receiver
+138-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/7d2291c29c7a6f87a454b865dc2f1866/transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+139            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+139-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/7d2291c29c7a6f87a454b865dc2f1866/transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+140            android:exported="false" />
+140-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/7d2291c29c7a6f87a454b865dc2f1866/transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+141        <receiver
+141-->[com.google.firebase:firebase-iid:20.1.4] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/8f00a84c9710fe0840d8595e7b4344d6/firebase-iid-20.1.4/AndroidManifest.xml:37:9-44:20
+142            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+142-->[com.google.firebase:firebase-iid:20.1.4] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/8f00a84c9710fe0840d8595e7b4344d6/firebase-iid-20.1.4/AndroidManifest.xml:38:13-78
+143            android:exported="true"
+143-->[com.google.firebase:firebase-iid:20.1.4] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/8f00a84c9710fe0840d8595e7b4344d6/firebase-iid-20.1.4/AndroidManifest.xml:39:13-36
+144            android:permission="com.google.android.c2dm.permission.SEND" >
+144-->[com.google.firebase:firebase-iid:20.1.4] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/8f00a84c9710fe0840d8595e7b4344d6/firebase-iid-20.1.4/AndroidManifest.xml:40:13-73
+145            <intent-filter>
+145-->[com.google.firebase:firebase-iid:20.1.4] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/8f00a84c9710fe0840d8595e7b4344d6/firebase-iid-20.1.4/AndroidManifest.xml:41:13-43:29
+146                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+146-->[com.google.firebase:firebase-iid:20.1.4] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/8f00a84c9710fe0840d8595e7b4344d6/firebase-iid-20.1.4/AndroidManifest.xml:42:17-81
+146-->[com.google.firebase:firebase-iid:20.1.4] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/8f00a84c9710fe0840d8595e7b4344d6/firebase-iid-20.1.4/AndroidManifest.xml:42:25-78
+147            </intent-filter>
+148        </receiver>
+149
+150        <provider
+150-->[com.google.firebase:firebase-common:19.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/874096a41e937a5a593f70dfb3944b1b/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+151            android:name="com.google.firebase.provider.FirebaseInitProvider"
+151-->[com.google.firebase:firebase-common:19.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/874096a41e937a5a593f70dfb3944b1b/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+152            android:authorities="com.mcpushsdkapp.firebaseinitprovider"
+152-->[com.google.firebase:firebase-common:19.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/874096a41e937a5a593f70dfb3944b1b/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+153            android:exported="false"
+153-->[com.google.firebase:firebase-common:19.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/874096a41e937a5a593f70dfb3944b1b/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+154            android:initOrder="100" />
+154-->[com.google.firebase:firebase-common:19.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/874096a41e937a5a593f70dfb3944b1b/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+155
+156        <receiver
+156-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/f17dbd3c9e55c99fded5d995fb48eb76/play-services-measurement-17.3.0/AndroidManifest.xml:29:9-33:20
+157            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+157-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/f17dbd3c9e55c99fded5d995fb48eb76/play-services-measurement-17.3.0/AndroidManifest.xml:30:13-85
+158            android:enabled="true"
+158-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/f17dbd3c9e55c99fded5d995fb48eb76/play-services-measurement-17.3.0/AndroidManifest.xml:31:13-35
+159            android:exported="false" >
+159-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/f17dbd3c9e55c99fded5d995fb48eb76/play-services-measurement-17.3.0/AndroidManifest.xml:32:13-37
+160        </receiver>
+161        <receiver
+161-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/f17dbd3c9e55c99fded5d995fb48eb76/play-services-measurement-17.3.0/AndroidManifest.xml:34:9-42:20
+162            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+162-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/f17dbd3c9e55c99fded5d995fb48eb76/play-services-measurement-17.3.0/AndroidManifest.xml:35:13-100
+163            android:enabled="true"
+163-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/f17dbd3c9e55c99fded5d995fb48eb76/play-services-measurement-17.3.0/AndroidManifest.xml:36:13-35
+164            android:exported="true"
+164-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/f17dbd3c9e55c99fded5d995fb48eb76/play-services-measurement-17.3.0/AndroidManifest.xml:37:13-36
+165            android:permission="android.permission.INSTALL_PACKAGES" >
+165-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/f17dbd3c9e55c99fded5d995fb48eb76/play-services-measurement-17.3.0/AndroidManifest.xml:38:13-69
+166            <intent-filter>
+166-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/f17dbd3c9e55c99fded5d995fb48eb76/play-services-measurement-17.3.0/AndroidManifest.xml:39:13-41:29
+167                <action android:name="com.android.vending.INSTALL_REFERRER" />
+167-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/f17dbd3c9e55c99fded5d995fb48eb76/play-services-measurement-17.3.0/AndroidManifest.xml:40:17-79
+167-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/f17dbd3c9e55c99fded5d995fb48eb76/play-services-measurement-17.3.0/AndroidManifest.xml:40:25-76
+168            </intent-filter>
+169        </receiver>
+170
+171        <service
+171-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/f17dbd3c9e55c99fded5d995fb48eb76/play-services-measurement-17.3.0/AndroidManifest.xml:44:9-47:40
+172            android:name="com.google.android.gms.measurement.AppMeasurementService"
+172-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/f17dbd3c9e55c99fded5d995fb48eb76/play-services-measurement-17.3.0/AndroidManifest.xml:45:13-84
+173            android:enabled="true"
+173-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/f17dbd3c9e55c99fded5d995fb48eb76/play-services-measurement-17.3.0/AndroidManifest.xml:46:13-35
+174            android:exported="false" />
+174-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/f17dbd3c9e55c99fded5d995fb48eb76/play-services-measurement-17.3.0/AndroidManifest.xml:47:13-37
+175        <service
+175-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/f17dbd3c9e55c99fded5d995fb48eb76/play-services-measurement-17.3.0/AndroidManifest.xml:48:9-52:72
+176            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+176-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/f17dbd3c9e55c99fded5d995fb48eb76/play-services-measurement-17.3.0/AndroidManifest.xml:49:13-87
+177            android:enabled="true"
+177-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/f17dbd3c9e55c99fded5d995fb48eb76/play-services-measurement-17.3.0/AndroidManifest.xml:50:13-35
+178            android:exported="false"
+178-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/f17dbd3c9e55c99fded5d995fb48eb76/play-services-measurement-17.3.0/AndroidManifest.xml:51:13-37
+179            android:permission="android.permission.BIND_JOB_SERVICE" />
+179-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/f17dbd3c9e55c99fded5d995fb48eb76/play-services-measurement-17.3.0/AndroidManifest.xml:52:13-69
+180
+181        <activity
+181-->[com.google.android.gms:play-services-base:17.0.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+182            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+182-->[com.google.android.gms:play-services-base:17.0.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+183            android:exported="false"
+183-->[com.google.android.gms:play-services-base:17.0.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+184            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+184-->[com.google.android.gms:play-services-base:17.0.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/a8808dfeda94c47fb6332865b0619b8e/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+185
+186        <meta-data
+186-->[com.google.android.gms:play-services-basement:17.0.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/1b07bac444086921664d2690eda98886/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+187            android:name="com.google.android.gms.version"
+187-->[com.google.android.gms:play-services-basement:17.0.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/1b07bac444086921664d2690eda98886/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+188            android:value="@integer/google_play_services_version" />
+188-->[com.google.android.gms:play-services-basement:17.0.0] /Users/gonz4/.gradle/caches/transforms-2/files-2.1/1b07bac444086921664d2690eda98886/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+189    </application>
+190
+191</manifest>

@@ -1,0 +1,6 @@
+module Pods_MCPushSDKAPP {
+  umbrella header "Pods-MCPushSDKAPP-umbrella.h"
+
+  export *
+  module * { export * }
+}
